@@ -23,7 +23,7 @@ We end up with the following network
 
 ```
 'input.txt' -> FILE READER(reader)
-'output.txt -> FILE WRITER(writer)
+'output.txt' -> FILE WRITER(writer)
 '80' -> SIZE RECOMPOSER(recomposer)
 READER OUT -> IN DECOMPOSER(decomposer) OUT -> IN RECOMPOSER OUT -> IN WRITER
 ```
